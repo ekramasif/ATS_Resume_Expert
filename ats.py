@@ -55,7 +55,7 @@ submit3 = st.sidebar.button("Percentage Match")
 col2 = st.columns([3])[0]
 
 with col2:
-    st.image("ats.jpg", use_column_width=True)  # Placeholder image
+    st.image("ATS.jpg", use_column_width=True)  # Placeholder image
 
 if submit1 or submit3:
     if uploaded_file is not None:
