@@ -1,0 +1,259 @@
+{
+  "build": "h8cc25b3_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\HP\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_0",
+  "files": [
+    "Library/bin/liblzma.dll",
+    "Library/bin/lzcat.exe",
+    "Library/bin/lzma.exe",
+    "Library/bin/lzmadec.exe",
+    "Library/bin/lzmainfo.exe",
+    "Library/bin/unlzma.exe",
+    "Library/bin/unxz.exe",
+    "Library/bin/xz.exe",
+    "Library/bin/xzcat.exe",
+    "Library/bin/xzdec.exe",
+    "Library/include/lzma.h",
+    "Library/include/lzma/base.h",
+    "Library/include/lzma/bcj.h",
+    "Library/include/lzma/block.h",
+    "Library/include/lzma/check.h",
+    "Library/include/lzma/container.h",
+    "Library/include/lzma/delta.h",
+    "Library/include/lzma/filter.h",
+    "Library/include/lzma/hardware.h",
+    "Library/include/lzma/index.h",
+    "Library/include/lzma/index_hash.h",
+    "Library/include/lzma/lzma12.h",
+    "Library/include/lzma/stream_flags.h",
+    "Library/include/lzma/version.h",
+    "Library/include/lzma/vli.h",
+    "Library/lib/liblzma.lib",
+    "Library/lib/liblzma_static.lib",
+    "Library/lib/pkgconfig/liblzma.pc",
+    ".nonadmin"
+  ],
+  "fn": "xz-5.4.6-h8cc25b3_0.conda",
+  "license": "LGPL-2.1-or-later and GPL-2.0-or-later and 0BSD",
+  "link": {
+    "source": "C:\\Users\\HP\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_0",
+    "type": 1
+  },
+  "md5": "313774ab79e0d1d6461c213d21417db0",
+  "name": "xz",
+  "package_tarball_full_path": "C:\\Users\\HP\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/liblzma.dll",
+        "path_type": "hardlink",
+        "sha256": "9aecadda5415b0a3053c739301014c671d5f34cd9e34a760c32f5929d3b6f91b",
+        "sha256_in_prefix": "9aecadda5415b0a3053c739301014c671d5f34cd9e34a760c32f5929d3b6f91b",
+        "size_in_bytes": 186368
+      },
+      {
+        "_path": "Library/bin/lzcat.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/lzma.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/lzmadec.exe",
+        "path_type": "hardlink",
+        "sha256": "455dff156f3f39e960a60e648b566dcb7352aff5d223fddc2cb90065a33d8b12",
+        "sha256_in_prefix": "455dff156f3f39e960a60e648b566dcb7352aff5d223fddc2cb90065a33d8b12",
+        "size_in_bytes": 303370
+      },
+      {
+        "_path": "Library/bin/lzmainfo.exe",
+        "path_type": "hardlink",
+        "sha256": "de130ce11d21ad5767d7bf3bb23daa08245d9e038e383f51de18aacaa015ea66",
+        "sha256_in_prefix": "de130ce11d21ad5767d7bf3bb23daa08245d9e038e383f51de18aacaa015ea66",
+        "size_in_bytes": 316692
+      },
+      {
+        "_path": "Library/bin/unlzma.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/unxz.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/xz.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/xzcat.exe",
+        "path_type": "hardlink",
+        "sha256": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "sha256_in_prefix": "c73951f00ab453617f6f680b8c2eaf1dd53d6a08b80be63215a4ef0d9d288500",
+        "size_in_bytes": 466257
+      },
+      {
+        "_path": "Library/bin/xzdec.exe",
+        "path_type": "hardlink",
+        "sha256": "7f55bd14e3867f28bac0c79cd537df6f5fc8ca8281c5183c2916fc9affa67e32",
+        "sha256_in_prefix": "7f55bd14e3867f28bac0c79cd537df6f5fc8ca8281c5183c2916fc9affa67e32",
+        "size_in_bytes": 335855
+      },
+      {
+        "_path": "Library/include/lzma.h",
+        "path_type": "hardlink",
+        "sha256": "3fb5ac13dac341a3db2b59325eccd4ec6e9fa285785ca93495e840912231b917",
+        "sha256_in_prefix": "3fb5ac13dac341a3db2b59325eccd4ec6e9fa285785ca93495e840912231b917",
+        "size_in_bytes": 9968
+      },
+      {
+        "_path": "Library/include/lzma/base.h",
+        "path_type": "hardlink",
+        "sha256": "c547e5692f0a1e938b72669f3dd4d586bbfc6b1ac090ac526727f0838b168393",
+        "sha256_in_prefix": "c547e5692f0a1e938b72669f3dd4d586bbfc6b1ac090ac526727f0838b168393",
+        "size_in_bytes": 28145
+      },
+      {
+        "_path": "Library/include/lzma/bcj.h",
+        "path_type": "hardlink",
+        "sha256": "eb476931d15a174904d9696c377582e505cb98f3caed1905d17b5c05029549bd",
+        "sha256_in_prefix": "eb476931d15a174904d9696c377582e505cb98f3caed1905d17b5c05029549bd",
+        "size_in_bytes": 2790
+      },
+      {
+        "_path": "Library/include/lzma/block.h",
+        "path_type": "hardlink",
+        "sha256": "9404bdeb7399a8311850f5e8be580e521b31f8dd5d4066f6d9ddb8641678c053",
+        "sha256_in_prefix": "9404bdeb7399a8311850f5e8be580e521b31f8dd5d4066f6d9ddb8641678c053",
+        "size_in_bytes": 26028
+      },
+      {
+        "_path": "Library/include/lzma/check.h",
+        "path_type": "hardlink",
+        "sha256": "e98b6df731ec386e421a40651991fcd3eac84ab63781f86cfbc7073fbc1ec998",
+        "sha256_in_prefix": "e98b6df731ec386e421a40651991fcd3eac84ab63781f86cfbc7073fbc1ec998",
+        "size_in_bytes": 4904
+      },
+      {
+        "_path": "Library/include/lzma/container.h",
+        "path_type": "hardlink",
+        "sha256": "b3621727198b67fd44849a838a274f71e59543d5faf906e5e847377dd89390e7",
+        "sha256_in_prefix": "b3621727198b67fd44849a838a274f71e59543d5faf906e5e847377dd89390e7",
+        "size_in_bytes": 40821
+      },
+      {
+        "_path": "Library/include/lzma/delta.h",
+        "path_type": "hardlink",
+        "sha256": "9f99742c20595af65103e67b210ea6b9a348d8b6f13f007d36734b0d293e31dc",
+        "sha256_in_prefix": "9f99742c20595af65103e67b210ea6b9a348d8b6f13f007d36734b0d293e31dc",
+        "size_in_bytes": 2251
+      },
+      {
+        "_path": "Library/include/lzma/filter.h",
+        "path_type": "hardlink",
+        "sha256": "5d595ecdfd045c1daea1e6f1f636e25b955e02a8b9eb190d196b5ca4d1091cf5",
+        "sha256_in_prefix": "5d595ecdfd045c1daea1e6f1f636e25b955e02a8b9eb190d196b5ca4d1091cf5",
+        "size_in_bytes": 31810
+      },
+      {
+        "_path": "Library/include/lzma/hardware.h",
+        "path_type": "hardlink",
+        "sha256": "c557f4c88fcbf45bb780a4e912ebabe30609624d7cf53c1b267b57657303df15",
+        "sha256_in_prefix": "c557f4c88fcbf45bb780a4e912ebabe30609624d7cf53c1b267b57657303df15",
+        "size_in_bytes": 2614
+      },
+      {
+        "_path": "Library/include/lzma/index.h",
+        "path_type": "hardlink",
+        "sha256": "23b66b3eb16ae52b38bea0d397ec693f5ac6506c89186671c2b17050cd0cf3ba",
+        "sha256_in_prefix": "23b66b3eb16ae52b38bea0d397ec693f5ac6506c89186671c2b17050cd0cf3ba",
+        "size_in_bytes": 30371
+      },
+      {
+        "_path": "Library/include/lzma/index_hash.h",
+        "path_type": "hardlink",
+        "sha256": "d8207d4a784ca6f6a10d95992a26eab0c8b6b6db38525bbec04a589bfd696a26",
+        "sha256_in_prefix": "d8207d4a784ca6f6a10d95992a26eab0c8b6b6db38525bbec04a589bfd696a26",
+        "size_in_bytes": 4735
+      },
+      {
+        "_path": "Library/include/lzma/lzma12.h",
+        "path_type": "hardlink",
+        "sha256": "2f42d62066796a589bc186f77f02dbcf59c0d46f1887db903ab1bd28ccebd2f3",
+        "sha256_in_prefix": "2f42d62066796a589bc186f77f02dbcf59c0d46f1887db903ab1bd28ccebd2f3",
+        "size_in_bytes": 20882
+      },
+      {
+        "_path": "Library/include/lzma/stream_flags.h",
+        "path_type": "hardlink",
+        "sha256": "85152d87811789956d0602152f3c51fca628d0aa99ddacb44813fa04f8f9aa98",
+        "sha256_in_prefix": "85152d87811789956d0602152f3c51fca628d0aa99ddacb44813fa04f8f9aa98",
+        "size_in_bytes": 9303
+      },
+      {
+        "_path": "Library/include/lzma/version.h",
+        "path_type": "hardlink",
+        "sha256": "4625a5f3f387424d42c23850bc6963aacca667d5854862af04f472b5d22b74c2",
+        "sha256_in_prefix": "4625a5f3f387424d42c23850bc6963aacca667d5854862af04f472b5d22b74c2",
+        "size_in_bytes": 3936
+      },
+      {
+        "_path": "Library/include/lzma/vli.h",
+        "path_type": "hardlink",
+        "sha256": "0fde3d0606456f70d60a2c1895df592679cee851c95d72532391f309d1ac8671",
+        "sha256_in_prefix": "0fde3d0606456f70d60a2c1895df592679cee851c95d72532391f309d1ac8671",
+        "size_in_bytes": 6699
+      },
+      {
+        "_path": "Library/lib/liblzma.lib",
+        "path_type": "hardlink",
+        "sha256": "5472720a6bada9b3553876aacb05c1d9590fdaa3eb69e7bcfd6b2babeddb26a7",
+        "sha256_in_prefix": "5472720a6bada9b3553876aacb05c1d9590fdaa3eb69e7bcfd6b2babeddb26a7",
+        "size_in_bytes": 25806
+      },
+      {
+        "_path": "Library/lib/liblzma_static.lib",
+        "path_type": "hardlink",
+        "sha256": "ea0f7300f95101af85aeafb4cd490ca8cd35b82729f2f918a7dd304f65f1dceb",
+        "sha256_in_prefix": "ea0f7300f95101af85aeafb4cd490ca8cd35b82729f2f918a7dd304f65f1dceb",
+        "size_in_bytes": 1323090
+      },
+      {
+        "_path": "Library/lib/pkgconfig/liblzma.pc",
+        "path_type": "hardlink",
+        "sha256": "ed779d60e8f79b966bfec8ebc18571fee54e1af7bae602c8d4d1cef882244662",
+        "sha256_in_prefix": "ed779d60e8f79b966bfec8ebc18571fee54e1af7bae602c8d4d1cef882244662",
+        "size_in_bytes": 596
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "fc2b619cf07e54f8d66cbdd233431fa74f5d695e8b75c0a1a23547cf2b3f65b2",
+  "size": 601552,
+  "subdir": "win-64",
+  "timestamp": 1709046669000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.4.6-h8cc25b3_0.conda",
+  "version": "5.4.6"
+}
