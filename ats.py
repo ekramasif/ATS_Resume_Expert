@@ -146,6 +146,6 @@ if submit1 or submit3:
 # Footer
 st.markdown("""
 <div class="footer" id="footer">
-  <p>&copy; 2024 ATS Resume Expert. All rights reserved. | Designed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
+  <p>&copy; 2024 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
 </div>
 """, unsafe_allow_html=True)
