@@ -13,7 +13,7 @@ genai.configure(api_key=os.getenv("API_KEY"))
 
 # Function to generate response from Gemini AI model
 def get_gemini_response(input_text, pdf_content, prompt):
-    model = genai.GenerativeModel('gemini-1.5-pro')
+    model = genai.GenerativeModel('gemini-2.5-pro-exp-03-25')
     response = model.generate_content([input_text, pdf_content[0], prompt])
     return response.text
 
