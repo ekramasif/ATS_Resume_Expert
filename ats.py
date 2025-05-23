@@ -3,7 +3,7 @@ import base64
 import streamlit as st
 import os
 import io
-from PIL import Image 
+from PIL import Image
 import pdf2image
 import google.generativeai as genai
 
@@ -109,7 +109,7 @@ with st.container():
     col2 = st.columns([3])[0]
     # Placeholder image
     with col2:
-        st.image("ATS.jpg", use_column_width=True)
+        st.image("ATS.jpg", use_container_width=True)
 
 # Handle button clicks
 if submit1 or submit3:
@@ -118,8 +118,8 @@ if submit1 or submit3:
         if submit1:
             # Prompt for resume analysis
             input_prompt = """
-            You are an experienced Technical Human Resource Manager, your task is to review the provided resume against the job description. 
-            Please share your professional evaluation on whether the candidate's profile aligns with the role. 
+            You are an experienced Technical Human Resource Manager, your task is to review the provided resume against the job description.
+            Please share your professional evaluation on whether the candidate's profile aligns with the role.
             Highlight the strengths and weaknesses of the applicant in relation to the specified job requirements.
 
             After that, please provide information on the following points:
@@ -131,7 +131,7 @@ if submit1 or submit3:
         else:
             # Prompt for percentage match
             input_prompt = """
-            You are a skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality. 
+            You are a skilled ATS (Applicant Tracking System) scanner with a deep understanding of data science and ATS functionality.
             Your task is to evaluate the resume against the provided job description. Provide the percentage match if the resume matches
             the job description. First, the output should come as a percentage, then keywords missing, and lastly, final thoughts.
             """
@@ -146,6 +146,6 @@ if submit1 or submit3:
 # Footer
 st.markdown("""
 <div class="footer" id="footer">
-  <p>&copy; 2024 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
+  <p>&copy; 2025 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
 </div>
 """, unsafe_allow_html=True)
