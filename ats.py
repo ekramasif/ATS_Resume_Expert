@@ -136,8 +136,11 @@ if submit1 or submit3:
             the job description. First, the output should come as a percentage, then keywords missing, and lastly, final thoughts.
             """
 
-        # Generate response from Gemini AI model
-        response = get_gemini_response(input_text, pdf_content, input_prompt)
+        # Show loading spinner while generating response
+        with st.spinner('Generating response...'):
+            # Generate response from Gemini AI model
+            response = get_gemini_response(input_text, pdf_content, input_prompt)
+
         st.subheader("Response:")
         st.write(response)
     else:
@@ -146,6 +149,6 @@ if submit1 or submit3:
 # Footer
 st.markdown("""
 <div class="footer" id="footer">
-  <p>&copy; 2025 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
+  <p>&copy; 2024 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
 </div>
 """, unsafe_allow_html=True)
