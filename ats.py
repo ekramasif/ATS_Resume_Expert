@@ -6,6 +6,9 @@ import io
 from PIL import Image
 import pdf2image
 import google.generativeai as genai
+from datetime import datetime
+
+current_year = datetime.now().year
 
 # Load API key from environment variables
 load_dotenv()
@@ -147,8 +150,8 @@ if submit1 or submit3:
         st.warning("Please upload the resume to proceed.")
 
 # Footer
-st.markdown("""
+st.markdown(f"""
 <div class="footer" id="footer">
-  <p>&copy; 2024 ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
+  <p>&copy; {current_year} ATS Resume Expert. All rights reserved. | Developed by <a href="https://www.linkedin.com/in/ekram-asif/">Md Ekram Uddin</a></p>
 </div>
 """, unsafe_allow_html=True)
